@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    {% include head.html %}
+  </head>
+  <body>
+
+    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-drawer mdl-layout--fixed-header">
+      <header class="mdl-layout__header">
+        <div class="mdl-layout__header-row">
+          <span class="mdl-layout-title">
+            {% if page.title %}<h1 id="page-title" class="mdl-typography--title">{{ page.title }}</h1>{% endif %}
+          </span>
+        </div>
+      </header>
+      <div class="mdl-layout__drawer">
+        <span class="mdl-layout-title"><a id="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a></span>
+        <nav class="mdl-navigation">
+          {% include menu.html %}
+        </nav>
+      </div>
+      <main class="mdl-layout__content">
+        <div class="page-content">
+          <div class="content">
+            {{ content }}
+          </div>
+        </div>
+      </main>
+      <footer>
+        {% include footer.html %}
+      </footer>
+    </div>
+  </body>
+</html>
