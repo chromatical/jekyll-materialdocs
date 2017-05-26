@@ -1,5 +1,8 @@
 # MaterialDocs
+
 **Rate this theme on [ThemeJekyll](https://themejekyll.github.io/theme/materialdocs/)!**
+
+![MaterialDocs Screenshot](https://themejekyll.github.io/assets/screenshots/materialdocs/materialdocs-screenshot-2.jpg)
 
 MaterialDocs is a material two-column Jekyll theme designed for documentation websites.  It is built with [Material Design Lite](https://getmdl.io).
 
