@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |spec|
   spec.name          = "jekyll-materialdocs"
-  spec.version       = "1.1.0"
+  spec.version       = "1.1.1"
   spec.authors       = ["James King"]
   spec.email         = ["hello@chromaticaldesign.com"]
 
