@@ -14,7 +14,7 @@ Example JavaScript snippet:
 
 ```javascript
 function pi(){
-  // Calculate Pi
+  // Approximate Pi (don't do this, use Math.PI for real projects)
   var pi = 22/7
   return pi
 }
