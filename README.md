@@ -56,7 +56,7 @@ MaterialDocs supports changing the color scheme by setting `mdl_colors` in _conf
 
 MaterialDocs supports a few optional custom values in the YAML front matter.
 ```yaml
-menu: Example Page # will use this as the menu item text instead of title
+menu: Example Page # will use this as the menu item text instead of title, set to false to remove from menu
 parent: index.md # will make this menu item a child of the index.md item
 weight: 2 # smaller weights rise to the top of the menu
 mdl_colors: deep_orange-blue # override global color scheme for this page
