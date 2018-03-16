@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |spec|
   spec.name          = "jekyll-materialdocs"
-  spec.version       = "1.1.2"
+  spec.version       = "1.2.0"
   spec.authors       = ["James King"]
   spec.email         = ["hello@chromaticaldesign.com"]
 
@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.homepage      = "https://github.com/chromatical/jekyll-materialdocs"
   spec.license       = "MIT"
 
-  spec.files         = `git ls-files -z`.split("\x0").select { |f| f.match(%r{^(_layouts|_includes|LICENSE|README)}i) }
+  spec.files         = `git ls-files -z`.split("\x0").select { |f| f.match(%r{^(assets|_layouts|_includes|LICENSE|README)}i) }
 
   spec.add_runtime_dependency "jekyll", "~> 3.4"
 
