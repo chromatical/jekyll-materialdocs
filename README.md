@@ -48,7 +48,7 @@ remote_theme: chromatical/jekyll-materialdocs
 ## Site Options
 ```yaml
 mdl_colors: indigo-pink # a supported Material Design Lite color scheme
-copyright: Your Name # will override the copyright notice (default is site_name)
+copyright: Your Name # will override the copyright notice (default is site title)
 ```
 MaterialDocs supports changing the color scheme by setting `mdl_colors` in _config.yml to a supported Material Design Lite scheme (e.g. indigo-pink, deep_orange-blue).  Use the [MDL theme builder](https://getmdl.io/customize/index.html) to find color schemes.
 
