@@ -61,6 +61,7 @@ menu: Example Page # will use this as the menu item text instead of title, set t
 parent: index.md # will make this menu item a child of the index.md item
 weight: 2 # smaller weights rise to the top of the menu
 mdl_colors: deep_orange-blue # override global color scheme for this page
+search: false # hides this page from search results
 ```
 
 ## Contributing
