@@ -13,12 +13,12 @@ menu: false
     </form>
     <ul class="demo-list-item mdl-list" id="results"></ul>
   </div>
-  <script src="{{ site.baseurl }}/assets/simple-jekyll-search.min.js"></script>
+  <script src="{{ '/assets/simple-jekyll-search.min.js' | absolute_url }}"></script>
   <script>
   SimpleJekyllSearch({
     searchInput: document.getElementById('search'),
     resultsContainer: document.getElementById('results'),
-    json: '{{ site.baseurl }}/assets/search.json',
+    json: "{{ '/assets/search.json' | absolute_url }}",
     searchResultTemplate: '<li class="mdl-list__item"><a href="{url}"><span class="mdl-list__item-primary-content">{title}</span></a></li>'
   })
   </script>
