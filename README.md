@@ -47,6 +47,7 @@ remote_theme: chromatical/jekyll-materialdocs
 
 ## Site Options
 ```yaml
+logo: /path/to/logo.png # an absolute or relative image path to use as the site logo
 mdl_colors: indigo-pink # a supported Material Design Lite color scheme
 copyright: Your Name # will override the copyright notice (default is site title)
 search: true # enabled by default, set to false to disable site search

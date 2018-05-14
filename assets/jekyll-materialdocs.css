@@ -2,6 +2,10 @@
   color: inherit;
   text-decoration: none;
 }
+#site-logo{
+  max-width: 100%;
+  padding-bottom: 32px;
+}
 .mdl-layout__drawer > .mdl-layout-title{
   padding-left: 16px;
   padding-right: 16px;
