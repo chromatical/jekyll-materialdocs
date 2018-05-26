@@ -60,10 +60,30 @@ MaterialDocs supports changing the color scheme by setting `mdl_colors` in _conf
 MaterialDocs supports a few optional custom values in the YAML front matter.
 ```yaml
 menu: Example Page # will use this as the menu item text instead of title, set to false to remove from menu
+tab: true # will open this page in a new tab
 parent: index.md # will make this menu item a child of the index.md item
 weight: 2 # smaller weights rise to the top of the menu
 mdl_colors: deep_orange-blue # override global color scheme for this page
 search: false # hides this page from search results
+```
+
+## Menu Data File
+
+MeterialDocs supports data-driven menus in `_data/nav.yml`.  This can be used to add custom or external links to the menu.  Data-driven menu items support all menu-related YAML front matter options.  Additionally, data-driven menu items support the `id` option, which can be referenced in `parent`.  An example `nav.yml` is shown here.
+
+```yaml
+- title: "External Menu Item"
+  url: "https://example.com"
+  tab: true # opens this link in a new tab
+  id: example # will be used as a parent item
+
+- title: "Child Menu Item"
+  url: "https://example.com"
+  parent: example # will make this item a child of the item above (not displayed when menu_style is set to 'dropdown')
+
+- title: "Another Child Menu Item"
+  url: "https://example.com"
+  parent: about.md # will make this item a child of the about.md item
 ```
 
 ## Contributing
