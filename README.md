@@ -69,7 +69,7 @@ search: false # hides this page from search results
 
 ## Menu Data File
 
-MeterialDocs supports data-driven menus in `_data/nav.yml`.  This can be used to add custom or external links to the menu.  Data-driven menu items support all menu-related YAML front matter options.  Additionally, data-driven menu items support the `id` option, which can be referenced in `parent`.  An example `nav.yml` is shown here.
+MaterialDocs supports data-driven menus in `_data/nav.yml`.  This can be used to add custom or external links to the menu.  Data-driven menu items support all menu-related YAML front matter options.  Additionally, data-driven menu items support the `id` option, which can be referenced in `parent`.  An example `nav.yml` is shown here.
 
 ```yaml
 - title: "External Menu Item"
